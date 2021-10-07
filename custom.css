@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Container stylesheet */
+header {
+  text-align: center;
+}
+
+header .content-width {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  header .content-width {
+    max-width: 1170px;
+  }
+}
+
+@media (min-width: 992px) {
+  header .content-width {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) {
+  header .content-width {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 576px) {
+  header .content-width {
+    min-width: 540px;
+  }
+}
+
+header .logo {
+  width: 50%;
+  margin: auto;
+}
+
+header .heading-h1 {
+  text-align: center;
+  font-size: 31px;
+  margin: 10px;
+}
+
+header .gif {
+  width: 400px;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  header .gif {
+    width: 250px;
+  }
+}
+
+header .content {
+  color: #2a2a2a;
+  line-height: 33px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 27px;
+}
+
+header .card {
+  width: 600px;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  header .card {
+    width: 500px;
+  }
+}
+
+header .meClass {
+  margin: 35px;
+}
+
+header .heading-h2 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 37px;
+  color: #000000;
+  text-align: center;
+}
+
+header .websitemockup {
+  width: 600px;
+}
+
+@media (max-width: 992px) {
+  header .websitemockup {
+    width: 500px;
+  }
+}
+
+header .end-to-end {
+  color: #676767;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+header .btn {
+  font-weight: 600;
+  font-size: 12px;
+  padding: 4px 11px;
+  margin: auto;
+  background: #146ab2;
+  border: none;
+  border-radius: 10px;
+  line-height: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+header .video {
+  padding: 30px 0px;
+}
+
+header .heading-h3 {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 37px;
+  color: #000000;
+}
+
+header .heading-h3 {
+  color: #676767;
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 500;
+}
+
+header .map {
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  header .map {
+    max-width: 100%;
+  }
+}
+
+header .StayTuned {
+  margin: auto;
+  width: 600px;
+}
+
+@media (max-width: 992px) {
+  header .StayTuned {
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=custom.css.map */
